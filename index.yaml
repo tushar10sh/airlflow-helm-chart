@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  postgresql:
+  - apiVersion: v1
+    appVersion: 11.7.0
+    created: "2020-11-02T03:31:21.104568339+05:30"
+    deprecated: true
+    description: DEPRECATED Chart for PostgreSQL, an object-relational database management
+      system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
+    digest: 70aec18c6e694df460f0d2f73cb1d633ad078fc64a0dee5e3af73d4cb7ff29d6
+    home: https://www.postgresql.org/
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    name: postgresql
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    urls:
+    - postgresql-8.6.4.tgz
+    version: 8.6.4
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.7
+    created: "2020-11-02T03:31:21.15005701+05:30"
+    deprecated: true
+    description: DEPRECATED Open source, advanced key-value store. It is often referred
+      to as a data structure server since keys can contain strings, hashes, lists,
+      sets and sorted sets.
+    digest: 20600be395da500d3276045bf58b99b3d0d32d9a277e26edc85526fabd40a8e5
+    home: http://redis.io/
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-10.5.7.tgz
+    version: 10.5.7
+generated: "2020-11-02T03:31:21.102675749+05:30"
